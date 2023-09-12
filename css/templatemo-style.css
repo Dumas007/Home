@@ -793,6 +793,17 @@ http://www.templatemo.com/tm-515-eatery
     bottom: 20px;
   }
 
+     .navbar {
+        background-color: transparent; /* Color de fondo inicial */
+        transition: background-color 0.3s ease-in-out; /* Transición suave */
+    }
+
+    .navbar.scrolled {
+        background-color: #DFDDD9; /* Color de fondo cuando haces scroll */
+    }
+
+
+
   .footer-open-hour::after {
     background: rgba(29,29,29,0.85);
     content: "";

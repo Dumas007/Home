@@ -23,10 +23,22 @@ http://www.templatemo.com/tm-515-eatery
      <link rel="stylesheet" href="css/owl.carousel.css">
      <link rel="stylesheet" href="css/owl.theme.default.min.css">
      <link rel="stylesheet" href="css/magnific-popup.css">
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/templatemo-style.css">
-
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) { // Cambia 50 a la cantidad de desplazamiento que desees
+                $('.navbar').addClass('scrolled');
+            } else {
+                $('.navbar').removeClass('scrolled');
+            }
+        });
+    });
+</script>
 </head>
 <body>
 
@@ -41,7 +53,7 @@ http://www.templatemo.com/tm-515-eatery
 
 
      <!-- MENU -->
-     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+     <section class="navbar custom-navbar navbar-fixed-top custom-navbar-bg" role="navigation">
           <div class="container">
 
                <div class="navbar-header">
@@ -52,7 +64,7 @@ http://www.templatemo.com/tm-515-eatery
                     </button>
 
                     <!-- lOGO TEXT HERE -->
-                    <a href="index.html" class="navbar-brand">SnapRate <span>.</span> Simple/Fast</a>
+                    <a href="index.html" class="navbar-brand">SnapRate <span style="color: #00BF1F;">.</span> Simple|Fast</a>
                </div>
 
                <!-- MENU LINKS -->
@@ -295,10 +307,12 @@ http://www.templatemo.com/tm-515-eatery
 
                                    <div class="menu-info">
                                         <div class="menu-item">
-                                             <h3>Get More Reviews,Boost Your Business</h3><br>
-                                             <p>Boost your online reviews with our service <br>
-                                                  that helps you get more positive feedback and <br>improve your online reputatiom</p>
+                                             <strong><h3 >Get More Reviews,Boost Your Business</h3></strong>
+                                             <p>Boost your online reviews with our service 
+                                                  that helps you get more positive feedback and improve your online reputatiom</p>
+                                                  <br>
                                         </div>
+
                                         <div class="menu-price">
                                              
                                         </div>
@@ -315,9 +329,9 @@ http://www.templatemo.com/tm-515-eatery
 
                                    <div class="menu-info">
                                         <div class="menu-item">
-                                             <h3>Boost Your Online Presence with us!</h3><br>
-                                     <p>Boost your online presence and engage with<br>
-                                         your audience like never before with or social <br>
+                                            <strong> <h3>Boost Your Online Presence with us!</h3></strong>
+                                     <p>Boost your online presence and engage with
+                                         your audience like never before with or social 
                                          media encouragement service 
                                               </p>
                                         </div>
@@ -337,10 +351,10 @@ http://www.templatemo.com/tm-515-eatery
 
                                    <div class="menu-info">
                                         <div class="menu-item">
-                                             <h3>Instant Feedback; Boost Online Presence</h3>
-                                             <p>Get instant feedback from your customer with<br>
-                                                  our real-time feedback service, helping you<br>
-                                                  improve your business and make better <br>
+                                           <strong>  <h3>Instant Feedback</h3></strong>
+                                             <p>Get instant feedback from your customer with
+                                                  our real-time feedback service, helping you
+                                                  improve your business and make better 
                                                   decisions </p>
                                         </div>
                                         <div class="menu-price">
@@ -596,6 +610,7 @@ http://www.templatemo.com/tm-515-eatery
      <script src="js/jquery.magnific-popup.min.js"></script>
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
+
 
 </body>
 </html>
