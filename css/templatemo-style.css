@@ -142,8 +142,8 @@ http://www.templatemo.com/tm-515-eatery
   -----------------------------------------*/
 
   .section-btn {
-    background: #ce3232;
-    border-radius: 0;
+    background: #00BF1F;
+    border-radius: 10px;
     border: 0;
     color: #f9f9f9;
     font-size: inherit;
@@ -728,8 +728,8 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   #contact button#cf-submit {
-    background: #ce3232;
-    border-radius: 0;
+    background: #00BF1F;
+    border-radius: 10px;
     border: 0;
     color: #ffffff;
     font-weight: bold;
@@ -781,7 +781,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .footer-open-hour {
     background: #ce3232;
-    background: url('../images/footer-open-hour-bg.jpg') center center no-repeat;
+    background: url('../images/m3.jpg') center center no-repeat;
     background-size: cover;
     border-radius: 20px;
     margin-top: 0;
